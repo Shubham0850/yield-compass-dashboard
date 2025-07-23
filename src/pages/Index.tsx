@@ -135,7 +135,7 @@ const Index = () => {
                   <SelectContent className="bg-white">
                     <SelectItem value="low">Low Risk (0-10% APY)</SelectItem>
                     <SelectItem value="medium">Medium Risk (10-25% APY)</SelectItem>
-                    <SelectItem value="high">High Risk (>25% APY)</SelectItem>
+                    <SelectItem value="high">High Risk ({'>'}25% APY)</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
